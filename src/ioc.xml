@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--    注册 Bean 交予 Spring 管理-->
+    <bean id="Person" class="org.jiangy.bean.Person">
+        <!--使用 property 属性给 Person 类赋初始值-->
+        <property name="name" value="jiangy"></property>
+        <property name="age" value="27"></property>
+    </bean>
+</beans>
